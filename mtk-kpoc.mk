@@ -7,10 +7,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # kpoc_charger
 PRODUCT_COPY_FILES += \
-    vendor/kpoc/X6531/proprietary/system_ext/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/kpoc_charger \
-    vendor/kpoc/X6531/proprietary/system_ext/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
-    vendor/kpoc/X6531/proprietary/system_ext/lib64/android.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.health-V1-ndk.so \
-    vendor/kpoc/X6531/proprietary/system_ext/lib64/libdrm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrm.so \
-    vendor/kpoc/X6531/proprietary/system_ext/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
-    vendor/kpoc/X6531/proprietary/system_ext/lib64/libtranshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtranshowlogo.so \
-    vendor/kpoc/X6531/proprietary/system_ext/lib64/libsuspend.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsuspend.so 
+    vendor/kpoc/X6531/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/kpoc_charger \
+    vendor/kpoc/X6531/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
+    vendor/kpoc/X6531/proprietary/lib64/android.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.health-V1-ndk.so \
+    vendor/kpoc/X6531/proprietary/lib64/libdrm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrm.so \
+    vendor/kpoc/X6531/proprietary/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
+    vendor/kpoc/X6531/proprietary/lib64/libtranshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtranshowlogo.so \
+    vendor/kpoc/X6531/proprietary/lib64/libsuspend.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsuspend.so 
