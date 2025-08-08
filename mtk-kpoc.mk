@@ -2,7 +2,7 @@
 #
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/kpoc/x6531
+    vendor/kpoc/X6531
 
 # kpoc_charger
 PRODUCT_COPY_FILES += \
